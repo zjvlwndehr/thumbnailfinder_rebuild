@@ -1,0 +1,90 @@
+
+[DEBUG] Analyze thread 6 finished
+[DEBUG] Greedy Algorithm finished
+[DEBUG] Greedy Result: [{0: [0, 13, 10]}, {5: [0, 4, 0]}, {3: [0, 0, 1]}, {7: [0, 11, 5]}, {1: [0, 0, 0]}, {4: [0, 5, 0]}, {6: [2, 0, 1]}, {2: [0, 0, 4]}]
+[DEBUG] Max matches frame: 300
+[DEBUG] Max matches frame to t: 1
+[DEBUG] Search for NBSrj0p8-b4 in data.json
+[DEBUG] Error: search(); Not Found
+[DEBUG] Analyze NBSrj0p8-b4 finished
+[DEBUG] Return result for NBSrj0p8-b4 is 1
+[DEBUG] Removed IP 127.0.0.1 from queue
+[DEBUG] Result for NBSrj0p8-b4 is http://youtu.be/NBSrj0p8-b4
+[DEBUG] Search for NBSrj0p8-b4 in data.json
+[DEBUG] Error: search(); Not Found
+[DEBUG] [127.0.0.1 request] : https://www.youtube.com/watch?v=NBSrj0p8-b4
+[DEBUG] [127.0.0.1 request] Youtube video ID: NBSrj0p8-b4
+[DEBUG] Added IP 127.0.0.1 to queue
+[DEBUG] [127.0.0.1 request] Added to queue
+[DEBUG] Search for NBSrj0p8-b4 in data.json
+[DEBUG] [127.0.0.1 request] Search result: 13
+[DEBUG] Removed IP 127.0.0.1 from queue
+[DEBUG] [127.0.0.1 request] Removed from queue
+[DEBUG] [127.0.0.1 request] : https://www.youtube.com/watch?v=NBSrj0p8-b4
+[DEBUG] [127.0.0.1 request] Youtube video ID: NBSrj0p8-b4
+[DEBUG] Added IP 127.0.0.1 to queue
+[DEBUG] [127.0.0.1 request] Added to queue
+[DEBUG] Search for NBSrj0p8-b4 in data.json
+[DEBUG] [127.0.0.1 request] Search result: 13
+[DEBUG] Removed IP 127.0.0.1 from queue
+[DEBUG] [127.0.0.1 request] Removed from queue
+[DEBUG] [127.0.0.1 request] : https://www.youtube.com/watch?v=NBSrj0p8-b4
+[DEBUG] [127.0.0.1 request] Youtube video ID: NBSrj0p8-b4
+[DEBUG] Added IP 127.0.0.1 to queue
+[DEBUG] [127.0.0.1 request] Added to queue
+[DEBUG] Search for NBSrj0p8-b4 in data.json
+[DEBUG] Error: search(); Not Found
+[DEBUG] [127.0.0.1 request] Search result: None
+[DEBUG] [127.0.0.1 request] Not found in database
+[DEBUG] File NBSrj0p8-b4.mp4 already exists
+[DEBUG] Download https://www.youtube.com/watch?v=NBSrj0p8-b4 for IP 127.0.0.1 finished
+[DEBUG] Analyze https://www.youtube.com/watch?v=NBSrj0p8-b4 started
+[DEBUG] File NBSrj0p8-b4.jpg already exists
+[DEBUG] Analyze thumbnail NBSrj0p8-b4 finished
+[DEBUG] Parsing video NBSrj0p8-b4 started
+[DEBUG] Parsing video NBSrj0p8-b4 finished
+[DEBUG] Greedy Algorithm started
+[DEBUG] Greedy Count: 31
+[DEBUG] Greedy NBSrj0p8-b4 thread 0 started
+[DEBUG] Greedy NBSrj0p8-b4 thread 1 started
+[DEBUG] Greedy NBSrj0p8-b4 thread 2 started
+[DEBUG] Greedy NBSrj0p8-b4 thread 3 started
+[DEBUG] Greedy NBSrj0p8-b4 thread 4 started
+[DEBUG] Greedy NBSrj0p8-b4 thread 5 started
+[DEBUG] Greedy NBSrj0p8-b4 thread 6 started
+[DEBUG] Greedy NBSrj0p8-b4 thread 7 started
+[DEBUG] Analyze thread 0 finished
+[DEBUG] Analyze thread 7 finished
+[DEBUG] Analyze thread 3 finished
+[DEBUG] Analyze thread 5 finished
+[DEBUG] Analyze thread 4 finished
+[DEBUG] Analyze thread 2 finished
+[DEBUG] Analyze thread 1 finished
+[DEBUG] Analyze thread 6 finished
+[DEBUG] Greedy Algorithm finished
+[DEBUG] Greedy Result: [{0: [0, 13, 10]}, {3: [0, 0, 1]}, {7: [0, 11, 5]}, {5: [0, 4, 0]}, {4: [0, 5, 0]}, {2: [0, 0, 4]}, {1: [0, 0, 0]}, {6: [2, 0, 1]}]
+[DEBUG] Max matches frame: 300
+[DEBUG] Max matches frame to t: 1
+[DEBUG] Search for NBSrj0p8-b4 in data.json
+[DEBUG] Error: search(); Not Found
+[DEBUG] Analyze NBSrj0p8-b4 finished
+[DEBUG] Return result for NBSrj0p8-b4 is 1
+[DEBUG] Removed IP 127.0.0.1 from queue
+[DEBUG] Result for NBSrj0p8-b4 is http://youtu.be/NBSrj0p8-b4
+[DEBUG] Search for NBSrj0p8-b4 in data.json
+[DEBUG] Error: search(); Not Found
+[DEBUG] [127.0.0.1 request] : https://www.youtube.com/watch?v=NBSrj0p8-b4
+[DEBUG] [127.0.0.1 request] Youtube video ID: NBSrj0p8-b4
+[DEBUG] Added IP 127.0.0.1 to queue
+[DEBUG] [127.0.0.1 request] Added to queue
+[DEBUG] Search for NBSrj0p8-b4 in data.json
+[DEBUG] Show data.json[{'GufnTF4_fpg': 8}, {'NBSrj0p8-b4': 13}, {'NBSrj0p8-b4': 1}, {'NBSrj0p8-b4': 1}]
+[DEBUG] Error: except search(); Not Found
+[DEBUG] [127.0.0.1 request] Search result: None
+[DEBUG] [127.0.0.1 request] Not found in database
+[DEBUG] File NBSrj0p8-b4.mp4 already exists
+[DEBUG] Download https://www.youtube.com/watch?v=NBSrj0p8-b4 for IP 127.0.0.1 finished
+[DEBUG] Analyze https://www.youtube.com/watch?v=NBSrj0p8-b4 started
+[DEBUG] File NBSrj0p8-b4.jpg already exists
+[DEBUG] Analyze thumbnail NBSrj0p8-b4 finished
+[DEBUG] Parsing video NBSrj0p8-b4 started

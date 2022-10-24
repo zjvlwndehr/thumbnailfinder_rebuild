@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>under construction...</title>
+  </head>
+  <body>
+    <h1>under construction...</h1>
+    <input type="text"></input>
+    <button onclick="doit()">INPUT</button>
+    <div id="show"></div>
+    </body>
+</html>
+
+<script>
+    function doit(){
+        console.log("1. doit()");
+        // <file input tag> click event
+        var value = document.querySelector("input").value;
+        console.log("2. value: " + value);
+        // fetch GET
+        var triggar = false;
+        const interval = 2000;
+        fetch("/upload?value=" + value)
+        .then(response => {
+            let data = response.json();
+            data.then(rtn => {
+                console.log("3. rtn: ");
+                console.log(rtn);
+                var status = rtn.status;
+                console.log("4. status: " + status);
+                var resp = rtn.resp;
+                // document.getElementById("show").innerHTML = resp + "<br>" + status;
+                var element = document.createElement("a");
+                element.setAttribute("href", resp);
+                element.setAttribute("target", "_blank");
+                element.innerHTML = resp;
+                document.getElementById("show").appendChild(element);
+            });
+        });
+
+        // var cnt = 0;
+        // setInterval(() => {
+        //     if (triggar){
+        //         fetch("/return?value=" + value)
+        //         .then(response => {
+        //             let data = response.json();
+        //             data.then(rtn => {
+        //                 var status = rtn.status;
+        //                 console.log("6. status: " + status);
+        //                 var resp = rtn.resp;
+        //                 document.getElementById("show").innerHTML = resp + "<br>" + status + "<br>" + cnt;
+        //                 if (resp == "done"){
+        //                     triggar = false;
+        //                     clearInterval(interval);
+        //                 }
+        //                 cnt += 1;
+        //             });
+        //         });
+        //     }
+        // }, interval);
+    };
+</script>
